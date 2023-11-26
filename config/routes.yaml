@@ -1,0 +1,17 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+index:
+    path: /
+    controller: App\Controller\TestController::index
+
+# test: 
+#     path: /test
+#     controller: App\Controller\TestController::test
+#     defaults:
+#         departement: "Vous n'avez pas de departement" 
+#         requirements:
+#             methods : [POST]
